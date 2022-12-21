@@ -1,0 +1,104 @@
+body {
+    background-image: url("images/2020_tunnelView.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    font-family: "NunitoSans-Regular", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.content {
+    background-color: rgba(255,255,255,0.8);
+    width: 800px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 25px;
+}
+
+#bee-photo {
+    text-align: center;
+}
+
+#dog-pics {
+    text-align: center;
+    font-size: smaller;
+    font-style:italic;
+}
+
+a {
+    font-weight: bold;
+}
+
+#nav {
+    display: float;
+    width: 1000px;
+    height: 35px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 6px 0;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 25px;
+}
+
+#nav a {
+    text-decoration: none;
+    padding: 10%;
+    width: 20%;
+    color: darkblue;
+}
+
+#header {
+    text-align: center;
+    color: darkblue;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 25px;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 0.5%;
+}
+
+#footer {
+    color: darkblue;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 25px;
+    margin: auto;
+    width: 20%;
+    padding: 0.5%
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: auto;
+}
+
+#footer a {
+    text-align: center;
+    margin: auto;
+}
+
+#footer h2 {
+    text-align: center;
+}
